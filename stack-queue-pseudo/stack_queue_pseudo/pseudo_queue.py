@@ -47,8 +47,7 @@ class PesudoQueue:
 
     def dequeue(self):
         '''function Removes node from queue'''
-        if self.stack2.is_empty():
-            while not self.stack1.is_empty():
+        while not self.stack1.is_empty():
                 self.stack2.push(self.stack1.pop())
         return self.stack2.pop().value
     

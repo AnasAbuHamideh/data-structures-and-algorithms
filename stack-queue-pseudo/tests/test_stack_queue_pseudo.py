@@ -12,7 +12,7 @@ def test_dequeue():
     queue=PesudoQueue()
     queue.enqueue('1')
     queue.enqueue("2")
-    actual= '2'
+    actual= '1'
     expected=queue.dequeue()
     assert  actual == expected
 

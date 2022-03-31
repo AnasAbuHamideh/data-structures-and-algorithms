@@ -10,6 +10,12 @@ Rear - This is the rear/last Node of the queue.
 Peek - When you peek you will view the value of the front Node in the queue. If called when the queue is empty an exception will be raised.
 IsEmpty - returns true when queue is empty otherwise returns false
 
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![stack](./stack.jpg)
+
+![queue](./queue.jpg)
+
 ## Challenge
 <!-- Description of the challenge -->
 Using a Linked List as the underlying data storage mechanism, implement both a Stack and a Queue
